@@ -1,0 +1,221 @@
+/* IMPORTACOES DE FONTES
+--------------------------------- */
+@charset UTF-8;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBaloo+Bhai%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBaloo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=4.9.10);
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+
+/* GERAL
+--------------------------------- */
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow: hidden;
+	line-height: 1.4 !important;
+	font-family: 'Open Sans' !important;
+}
+
+ul, li {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* CORPO / FUNDO
+--------------------------------- */
+body {
+	background: linear-gradient(0deg, rgba(238,238,238,1) 32%, rgba(245,245,245,1) 60%, rgba(255,255,255,1) 82%, rgba(255,255,255,1) 100%);;
+}
+
+div#menu-topo {
+    background: #004a98;
+	height: 70px;
+	z-index: 9;
+	position: fixed;
+	width: 100%;
+}
+
+div#menu-topo ul li a {
+    color: white;
+    float: left;
+    text-decoration: none;
+    margin: 9.5px;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+div#menu-topo ul li a#doeagoramenu {
+    float: right;
+    background: #f5f5ef;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #3e6faf;
+    padding: 7px 37px;
+    box-shadow: #c6cfd7 2px 2px;
+    border-radius: 28px;
+    border: solid #778592 3px;
+}
+
+div#logo {
+	top: 100px;
+	display: inline-flex;
+    background: url(../img/logo.jpg) center;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    left: 70px;
+    background-size: cover;
+}
+
+div#sobrenos-texto {
+	margin-top: 115px;
+	margin-right: -80px;
+    background: #004a98;
+    float: right;
+    width: 60%;
+    padding: 3%;
+    color: white;
+    border-radius: 100% 70%;
+}
+
+div#sobrenos-texto h1 {
+    text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div#sobrenos-paragrafos {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+div#sobrenos-redes {
+    float: left;
+}
+
+div#queradotar, div#perfil, div#comoadotar, div#formulario, div#bazar, div#gatinhos, div#doeagora {
+    float: left;
+    width: 100%;
+}
+
+div#queradotar h1, div#queradotar h1, div#perfil h1, div#comoadotar h1, div#formulario h1, div#bazar h1, div#gatinhos h1, div#doeagora h1 {
+    color: #004a98;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 48px;
+	margin-bottom: 0;
+}
+
+a#perfil-box, a#comoadotar-box, a#formulario-box {
+    background: #004a98;
+    color: white;
+    text-decoration: none;
+    width: 30%;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+div#queradotar p {
+    text-align: center;
+}
+
+a#comoadotar-box {
+	background: #b3cf52;
+	color: #004a98;
+}
+
+ul#queroadotar-menu a h3 {
+    margin: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: Arial;
+}
+
+div#perfil h1, div#comoadotar h1, div#formulario h1 {
+    background: #b3cf52;
+    width: 36%;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+div#perfil-texto, div#comoadotar-texto, div#formulario-texto {
+    margin-left: -80px;
+    background: #004a98;
+    float: left;
+    width: 55%;
+    padding: 3%;
+    color: white;
+    border-radius: 100% 70%;
+}
+
+div#perfil-paragrafos p, div#comoadotar-paragrafos p, div#formulario-paragrafos p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+div#doeagora #desc{
+    text-align: center;
+	color: #4172b0;
+}
+
+div#doeagora-dados {
+    float: left;
+    width: 64%;
+}
+
+div#doeagora-topo {
+    background: #004a98;
+    color: #d9f42f;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    padding: 7px 21px;
+    box-shadow: #daf52f -21px -9px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+div#doeagora-box {
+    width: 78%;
+    float: left;
+}
+
+div#doeagora-box h2 {
+    color: #004ca3;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+div#doeagora-box p {
+    font-size: 16px;
+    color: #004ca3;
+    margin: 4px;
+}
+
+div#doecaixa {
+    float: left;
+    margin-left: 53px;
+}
+
+img#perfil-foto, img#comoadotar-foto, img#formulario-link {
+    background: #3e6faf;
+    float: right;
+    width: 30%;
+    margin-right: 15px;
+    transform: rotate(174deg);
+    padding: 3%;
+    color: white;
+}
