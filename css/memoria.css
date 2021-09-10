@@ -17,7 +17,7 @@ html, body {
 body {
 	overflow: hidden;
 	line-height: 1.4 !important;
-	font-family: 'Open Sans' !important;
+	font-family: 'Open Sans', Arial, sans-serif !important;
 }
 
 ul, li {
